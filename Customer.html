@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UrbanFood</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; padding-top: 80px; }
+        .form-card { max-width: 600px; margin: auto; }
+    </style>
+</head>
+<body>
+
+
+
+<!-- Page Header -->
+<div class="container text-center mb-4">
+    <h2 class="mt-4 fw-bold">Customer Registration</h2>
+</div>
+
+<!-- Registration Form -->
+<div class="container">
+    <div class="card p-4 shadow form-card">
+        <form action="Customer.php" method="POST">
+            <div class="mb-3">
+                <label class="form-label">Customer Name</label>
+                <input type="text" class="form-control" name="customer_name" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" name="password" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Address</label>
+                <input type="text" class="form-control" name="address" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Date Registered</label>
+                <input type="date" class="form-control" name="date_register" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" name="submit" class="btn btn-success">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

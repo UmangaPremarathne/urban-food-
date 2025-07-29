@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanFood</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="css/hover-min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Section Start -->
+    <header class="navbar">
+        <nav id="site-top-nav" class="navbar-menu navbar-fixed-top">
+            <div class="container">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="index.html" title="Logo">
+                        <h1>Urban</h1><img src="img/logo.png" alt="Logo" class="img-responsive">
+                    </a>
+                </div>
+                <!-- Main Menu -->
+                <div class="menu text-right">
+                    <ul>
+                        <li><a class="hvr-underline-from-center" href="index.html">Home</a></li>
+                        <li><a class="hvr-underline-from-center" href="order.html">Order</a></li>
+                        <li><a class="hvr-underline-from-center" href="Supplier.html">Supplier</a></li>
+                        <li><a class="hvr-underline-from-center" href="Customer.html">Customer</a></li>
+                        <li><a class="hvr-underline-from-center" href="payment.html">Payment</a></li>
+                        <li><a class="hvr-underline-from-center" href="Feedback.html">Feedback</a></li>
+                        <li><a class="hvr-underline-from-center" href="login.html">Login</a></li>
+                        <li>
+                            <a id="shopping-cart" class="shopping-cart">
+                                <i class="fa fa-cart-arrow-down"></i>
+                                <span class="badge">0</span>
+                            </a>
+                            <div id="cart-content" class="cart-content">
+                                <h3 class="text-center">Shopping Cart</h3>
+                                <table class="cart-table" border="0">
+                                    <tr>
+                                        <th>Food</th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Qty</th>
+                                        <th>Total</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    <!-- Cart items will be dynamically inserted here -->
+                                </table>
+                                <a href="order.html" class="btn-primary">Confirm Order</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navigation Section End -->
+
+    <!-- Food Search Section Start -->
+    <section class="food-search text-center" >
+        <div class="container">
+            <form action="food-search.html">
+                <input type="search" placeholder="Search for food..." required>
+                <input type="submit" value="Search" class="btn-primary">
+            </form>
+        </div>
+    </section>
+    <!-- Food Search Section End -->
+
+    <!-- Category Section Start -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Products</h2>
+            <div class="heading-border"></div>
+
+            <div class="grid-3">
+                <a href="category-fruits.html">
+                    <div class="float-container">
+                        <img src="img/1.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Fruits</h3>
+                    </div>
+                </a>
+                <a href="category-vegetable.html">
+                    <div class="float-container">
+                        <img src="img/2.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Vegetables</h3>
+                    </div>
+                </a>
+                <a href="category-dairyitem.html">
+                    <div class="float-container">
+                        <img src="img/3.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Dairy Products</h3>
+                    </div>
+                </a>
+                <a href="category-bakeditem.html">
+                    <div class="float-container">
+                        <img src="img/4.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white"> Baked Goods</h3>
+                    </div>
+                </a>
+                <a href="category-handmade.html">
+                    <div class="float-container">
+                        <img src="img/5.jpg" class="img-responsive" alt="">
+                        <h3 class="float-text text-white">Handmade Crafts</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- Footer Section Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="grid-3">
+                <div class="text-center">
+                    <h3>About Us</h3><br>
+                    <p>Welcome to UrbanFood – your trusted online platform connecting local farmers, home-based producers, and urban consumers. We believe in bringing fresh, healthy, and affordable food straight from the source to your doorstep.</p>
+                </div>
+                <div class="texr-center">
+                    <h3>Site Map</h3><br>
+                    <div class="site-links">
+                        <a href="order.html">Order</a>
+                        <a href="supplier.html">Supplier</a>
+                        <a href="customer.html">Customer</a>
+                        <a href="payment.html">Payment</a>
+                        <a href="feedback.html">Feedback</a>
+                        <a href="login.html">Login</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Social Links</h3><br>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/twitter--v1.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/linkedin-circled--v1.png"/></a></li>
+                            <li><a href="https://youtube.com/@codearcade-se4rc?si=2vBakC9_9-q3AL0y"><img src="https://img.icons8.com/color/48/null/youtube-play.png"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- Copyright Section start -->
+    <section class="copyright">
+        <div class="container text-center">
+            <p>All rights reserved.</p>
+        </div>
+        <a id="back-to-top" class="btn-primary">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+    </section>
+    <!-- Copyright Section End -->
+
+    <!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<!-- Jquery UI -->
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<!-- Custom JS -->
+<script src="js/custom.js"></script>
+
+
+    <script>
+        // Sample products for the demo
+        const products = [
+            { id: 1, name: "Fruits", price: 5.99, image: "img/1.jpg" },
+            { id: 2, name: "Vegetables", price: 4.50, image: "img/2.jpg" },
+            { id: 3, name: "Dairy Products", price: 6.75, image: "img/3.jpg" },
+            { id: 4, name: "Baked Goods", price: 3.99, image: "img/4.jpg" },
+            { id: 5, name: "Handmade Crafts", price: 10.00, image: "img/5.jpg" }
+        ];
+        
+        let cart = [];
+        
+        function updateCartUI() {
+            const cartTable = document.querySelector('.cart-table');
+            // Remove all rows except the header
+            cartTable.querySelectorAll('tr:not(:first-child)').forEach(row => row.remove());
+        
+            let totalItems = 0;
+        
+            cart.forEach((item, index) => {
+                totalItems += item.qty;
+                const row = cartTable.insertRow();
+                row.innerHTML = `
+                    <td><img src="${item.image}" width="50" /></td>
+                    <td>${item.name}</td>
+                    <td>$${item.price.toFixed(2)}</td>
+                    <td>${item.qty}</td>
+                    <td>$${(item.qty * item.price).toFixed(2)}</td>
+                    <td><button onclick="removeFromCart(${index})">Remove</button></td>
+                `;
+            });
+        
+            document.querySelector('.badge').innerText = totalItems;
+        }
+        
+        function addToCart(productId) {
+            const product = products.find(p => p.id === productId);
+            const existing = cart.find(item => item.id === productId);
+        
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({ ...product, qty: 1 });
+            }
+        
+            updateCartUI();
+        }
+        
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCartUI();
+        }
+        
+        // Add "Add to Cart" buttons under each category item
+        window.onload = () => {
+            const containers = document.querySelectorAll(".float-container");
+            containers.forEach((container, index) => {
+                const btn = document.createElement("button");
+                btn.innerText = "Add to Cart";
+                btn.className = "btn-primary";
+                btn.style.marginTop = "10px";
+                btn.onclick = () => addToCart(products[index].id);
+                container.appendChild(btn);
+            });
+        
+            // Toggle cart visibility
+            document.getElementById("shopping-cart").addEventListener("click", () => {
+                document.getElementById("cart-content").classList.toggle("visible");
+            });
+        };
+        </script>
+        
+        <style>
+        .cart-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background: #fff;
+            padding: 10px;
+            width: 400px;
+            max-height: 400px;
+            overflow-y: auto;
+            box-shadow: 0px 0px 10px #aaa;
+            z-index: 999;
+        }
+        
+        .cart-content.visible {
+            display: block;
+        }
+        
+        .cart-table img {
+            border-radius: 5px;
+        }
+        
+        .cart-table th, .cart-table td {
+            padding: 5px;
+            text-align: center;
+        }
+        
+        .btn-primary {
+            background-color: #FF6B6B;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        </style>
+        
+</body>
+</html>
